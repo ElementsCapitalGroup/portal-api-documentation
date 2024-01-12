@@ -1,10 +1,10 @@
 ---
-title: Introduction to the Enium API
+title: Enium Partner API Overview
 sidebar_label: Overview
 slug: /
 hide_table_of_contents: true
-demoUrl: https://docs-demo.ionic.io/
-demoSourceUrl: https://github.com/ionic-team/docs-demo
+# demoUrl: https://docs-demo.ionic.io/
+# demoSourceUrl: https://github.com/ionic-team/docs-demo
 ---
 
 import DocsCard from '@components/global/DocsCard';
@@ -22,19 +22,17 @@ import DocsCards from '@components/global/DocsCards';
   <meta property="og:url" content="https://ionicframework.com/docs" />
 </head>
 
-Fart is an open source UI toolkit for building performant, high-quality mobile apps using web technologies — HTML, CSS, and JavaScript — with integrations for popular frameworks like [Angular](angular/overview.md), [React](react.md), and [Vue](vue/overview.md).
-
-Get started building by [installing Ionic](intro/cli.md) or following our [First App Tutorial](intro/next.md#build-your-first-app) to learn the main concepts.
+Welcome to the Enium Partner API, an advanced interface designed to streamline and enhance your interactions with Enium's financial services. Our API provides comprehensive access to a range of functionalities, including Estimation, Loan Applications, Documents, Stipulations, and detailed Error Codes. 
 
 <intro-end />
 
 <DocsCards>
-  <DocsCard header="Installation Guide" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
+  <DocsCard header="Implementation Guides" href="/intro/cli" icon="/icons/guide-installation-icon.svg" hoverIcon="/icons/guide-installation-icon-hover.svg">
     <p>Step-by-step guides to setting up your system and installing the framework.</p>
   </DocsCard>
 
 <DocsCard
-  header="UI Components"
+  header="API Reference"
   href="/components"
   icon="/icons/guide-components-icon.svg"
   hoverIcon="/icons/guide-components-icon-hover.svg"
@@ -43,7 +41,7 @@ Get started building by [installing Ionic](intro/cli.md) or following our [First
 </DocsCard>
 
 <DocsCard
-  header="Native Functionality"
+  header="Authentication"
   href="/native"
   icon="/icons/guide-native-icon.svg"
   hoverIcon="/icons/guide-native-icon-hover.svg"
@@ -51,7 +49,7 @@ Get started building by [installing Ionic](intro/cli.md) or following our [First
   <p>Integrate native device plugins, like Bluetooth, Maps, HealthKit, and more.</p>
 </DocsCard>
 
-  <DocsCard header="Theming" href="/theming/basics" icon="/icons/guide-theming-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
+  <DocsCard header="API Keys" href="/theming/basics" icon="/icons/guide-theming-icon.svg" hoverIcon="/icons/guide-theming-icon-hover.svg">
     <p>Learn to easily customize and modify your Ionic app's visual design to fit your brand.</p>
   </DocsCard>
 </DocsCards>

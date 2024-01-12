@@ -127,13 +127,13 @@ module.exports = {
         {
           type: 'doc',
           docId: 'index',
-          label: 'Guide',
+          label: 'Reference',
           position: 'left',
         },
         {
           type: 'doc',
           docId: 'components',
-          label: 'Components',
+          label: 'Guides',
           position: 'left',
         },
         // {

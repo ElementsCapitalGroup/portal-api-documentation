@@ -8,7 +8,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'Developing',
+      label: 'API Reference',
       collapsed: false,
       items: [
         'developing/starting',
