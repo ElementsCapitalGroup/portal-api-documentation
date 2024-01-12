@@ -116,12 +116,12 @@ module.exports = {
       hideOnScroll: true,
       logo: {
         alt: 'Site Logo',
-        src: `/logos/ionic-text-docs-dark.svg`,
+        src: `/logos/enium-text-docs-dark.svg`,
         srcDark: `/logos/ionic-text-docs-light.svg`,
         href: '/',
         target: '_self',
-        width: 139,
-        height: 28,
+        width: 155,
+        height: 20,
       },
       items: [
         {
