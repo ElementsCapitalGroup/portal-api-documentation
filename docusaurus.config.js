@@ -117,7 +117,7 @@ module.exports = {
       logo: {
         alt: 'Site Logo',
         src: `/logos/enium-text-docs-dark.svg`,
-        srcDark: `/logos/ionic-text-docs-light.svg`,
+        srcDark: `/logos/enium-text-docs-light.svg`,
         href: '/',
         target: '_self',
         width: 155,
@@ -136,119 +136,22 @@ module.exports = {
           label: 'Components',
           position: 'left',
         },
-        {
-          type: 'doc',
-          docId: 'cli',
-          label: 'CLI',
-          position: 'left',
-        },
-        {
-          type: 'doc',
-          docId: 'native',
-          label: 'Native',
-          position: 'left',
-        },
-        {
-          type: 'doc',
-          docId: 'updating/7-0',
-          label: 'Ionic v7.0.0 Upgrade Guide',
-          position: 'left',
-          className: 'cta',
-        },
-        {
-          type: 'docsVersionDropdown',
-          position: 'right',
-          dropdownItemsAfter: [
-            { to: 'https://ionicframework.com/docs/v4/components', label: 'v4', target: '_blank' },
-            { to: 'https://ionicframework.com/docs/v3/', label: 'v3', target: '_blank' },
-          ],
-          // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
-          dropdownActiveClassDisabled: true,
-        },
+        // {
+        //   type: 'docsVersionDropdown',
+        //   position: 'right',
+        //   dropdownItemsAfter: [
+        //   ],
+        //   // dropdownItemsAfter: [{to: '/versions', label: 'All versions'}],
+        //   dropdownActiveClassDisabled: true,
+        // },
         {
           type: 'search',
           position: 'right',
         },
         {
-          label: 'Community',
-          position: 'right',
-          items: [
-            {
-              href: 'https://ionicframework.com/community',
-              label: 'Community Hub',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://forum.ionicframework.com/',
-              label: 'Forum',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://www.meetup.com/topics/ionic-framework/',
-              label: 'Meetups',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://blog.ionicframework.com/',
-              label: 'Blog',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://twitter.com/ionicframework',
-              label: 'Twitter',
-              target: '_blank',
-              rel: null,
-            },
-          ],
-          className: 'navbar__link--community',
-        },
-        {
-          label: 'Support',
-          position: 'right',
-          items: [
-            {
-              href: 'https://ionicframework.com/support',
-              label: 'Help Center',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://ionic.zendesk.com/',
-              label: 'Customer Support',
-              target: '_blank',
-              rel: null,
-            },
-            {
-              href: 'https://ionicframework.com/advisory',
-              label: 'Enterprise Advisory',
-              target: '_blank',
-              rel: null,
-            },
-          ],
-          className: 'navbar__link--support',
-        },
-        {
           type: 'html',
           position: 'right',
           value: '<div class="separator" aria-hidden></div>',
-        },
-        {
-          type: 'localeDropdown',
-          position: 'right',
-          dropdownItemsBefore: [],
-          dropdownItemsAfter: [
-            {
-              href: 'https://ionicframework.com/translate',
-              label: 'Translate',
-              target: '_blank',
-              rel: null,
-            },
-          ],
-          className: 'icon-link language navbar__item',
         },
         {
           href: 'https://twitter.com/Ionicframework',
