@@ -4,23 +4,21 @@ module.exports = {
       type: 'category',
       label: 'Getting Started',
       collapsed: false,
-      items: ['index', 'intro/environment', 'intro/cli', 'intro/cdn', 'intro/vscode-extension', 'intro/next'],
+      items: [
+        'index', 
+        'overview/authentication', 
+        'overview/api-keys'
+      ],
     },
     {
       type: 'category',
       label: 'API Reference',
       collapsed: false,
       items: [
-        'developing/starting',
-        'developing/previewing',
-        'developing/scaffolding',
-        'developing/ios',
-        'developing/android',
-        'developing/tips',
-        'developing/hardware-back-button',
-        'developing/keyboard',
-        'developing/config',
-        'developing/managing-focus',
+        'reference/estimates',
+        'reference/application',
+        'reference/stipulation',
+        'reference/funding'
       ],
     }
   ]
