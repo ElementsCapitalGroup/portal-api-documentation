@@ -45,7 +45,7 @@ Welcome to the Enium Partner API, an advanced interface designed to streamline a
 
 <DocsCard
   header="API Reference"
-  href="/components"
+  href="/reference/estimates"
   icon="/icons/guide-components-icon.svg"
   hoverIcon="/icons/guide-components-icon-hover.svg"
 >
@@ -64,7 +64,7 @@ Welcome to the Enium Partner API, an advanced interface designed to streamline a
 
 Whether you're looking to integrate estimation processes, manage loan applications, handle various documents, or navigate stipulations efficiently, our API ensures a seamless, secure, and efficient experience. For in-depth understanding, please refer to our Implementation Guides, API Reference, Authentication methods, and API Keys documentation.
 
-If you're ready to get started head over to [Authentication] and then API Keys.
+If you're ready to get started head over to [Authentication](/overview/authentication) and then create your [API Keys](/overview/api-keys).
 
 
 # API Flow

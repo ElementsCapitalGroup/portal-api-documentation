@@ -18,8 +18,18 @@ module.exports = {
         'reference/estimates',
         'reference/application',
         'reference/stipulation',
-        'reference/funding'
+        'reference/funding',
+        'reference/error-codes'
       ],
+    },
+    {
+      type: 'category',
+      label: 'Compliance & Security',
+      collapsed: false,
+      items: [
+        'compliance/compliance',
+        'compliance/data-security',
+      ]
     }
   ]
 };
